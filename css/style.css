@@ -18,6 +18,7 @@
     height: 100%;
     background-color: orange;
     border: 5px solid white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container.background {
@@ -28,12 +29,40 @@
 .blu {
     height: 400px;
     background-color: blue;
+    color: white;
 }
 
 nav {
     height: 70px;
     background-color: blue;
+    font-size: 7px;
+    text-transform: uppercase;
+    position: relative;
 }
+
+#logo {
+    display: inline;
+}
+
+#logo img {
+    /* height: 50px; */
+    margin: 10px 50px;
+    /* display: inline-block; */
+    float: left;
+
+}
+
+ul li {
+    display: inline-block;
+    line-height: 70px;
+    padding: 0 10px;
+}
+
+/* .right-menu nav {
+    line-height: 70px;
+    float: left;
+} */
+
 
 .banner {
     height: 330px;
@@ -50,9 +79,22 @@ nav {
     color: white;
 }
 
+
+h1  {
+    margin: 50px;
+}
+
 .grigio {
+
     height: 100px;
     background-color: grey;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+h3 {
+    font-size: 15px;
 }
 
 .bianco {
