@@ -10,102 +10,77 @@
     clear: both;
 }
 
-.container {
-    width: 70%;
-    max-width: 1200px;
-    margin: 0 auto;
-    /* CANCELLARE */
-    height: 100%;
-    background-color: orange;
-    border: 5px solid white;
+body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.container.background {
-    background-image: url(https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png);
-    background-size: cover;
-}
-
-.blu {
+.container {
+    width: 80%;
+    /* CANCELLARE ALTEZZA */
     height: 400px;
-    background-color: blue;
-    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
-nav {
+.bcg-blu {
+    background-color: #0c325a;
+}
+
+.menu-top {
     height: 70px;
-    background-color: blue;
-    font-size: 7px;
-    text-transform: uppercase;
-    position: relative;
+    padding: 10px 0;
+    line-height: 50px;
 }
 
-#logo {
-    display: inline;
+.bcg-grigio {
+    height: 100px;
+    background-color: gray;
+}
+
+.bcg-bianco {
+    background-color: white;
+}
+
+#logo, nav {
+    float: left;
 }
 
 #logo img {
-    /* height: 50px; */
-    margin: 10px 50px;
-    /* display: inline-block; */
+    margin-right: 50px;
+}
+
+nav li {
     float: left;
-
+    list-style: none;
+    padding: 0 5px;
 }
 
-ul li {
-    display: inline-block;
-    line-height: 70px;
-    padding: 0 10px;
-}
-
-/* .right-menu nav {
-    line-height: 70px;
-    float: left;
-} */
-
-
-.banner {
-    height: 330px;
-    position: relative;
-}
-
-.testo-banner {
-    width: 50%;
-    height: 100%;
-    border: 1px solid white;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+.menu-top a {
+    font-size: 8px;
     color: white;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
-
-h1  {
-    margin: 50px;
+.menu-right {
+    float: right;
 }
 
-.grigio {
-
-    height: 100px;
-    background-color: grey;
-    text-align: center;
-    vertical-align: middle;
-
+.bt {
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
 }
 
-h3 {
-    font-size: 15px;
+.button-blue {
+    background-color: #0c325a;
+    padding: 5px 20px;
+    border: 1px solid #b8e2f2;
 }
 
-.bianco {
-    /* CANCELLARE */
-    height: 400px;
-    /* background-color: white; */
-}
+.button-green {
+    background-color: #7cbb02;
+    padding: 5px 10px;
+    border: 1px solid #7cbb02;
 
-.box {
-    width: 33.33333%;
-    height: 100%;
-    border: 1px solid white;
-    float: left;
 }
