@@ -30,11 +30,6 @@ body {
     line-height: 50px;
 }
 
-.bcg-grigio {
-    height: 100px;
-    background-color: gray;
-}
-
 .bcg-bianco {
     background-color: white;
 }
@@ -70,14 +65,6 @@ nav li {
     border-radius: 5px;
 }
 
-.bt-piccolo {
-    padding: 5 10px;
-}
-
-.bt-grande {
-    padding: 13px 20px;
-}
-
 .button-blue {
     background-color: #0c325a;
     padding: 5px 20px;
@@ -89,6 +76,10 @@ nav li {
     background-color: #7cbb02;
     padding: 5px 10px;
     border: 1px solid #7cbb02;
+}
+
+.bt-grande {
+    padding: 13px 20px;
 }
 
 .banner {
@@ -107,4 +98,18 @@ h1 {
     font-size: 40px;
     color: white;
     margin-bottom: 20px;
+}
+
+.bcg-grigio {
+    padding: 40px;
+    background-color: #d3d3d3;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    color: gray;
 }
