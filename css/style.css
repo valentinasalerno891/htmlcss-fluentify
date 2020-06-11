@@ -16,8 +16,6 @@ body {
 
 .container {
     width: 80%;
-    /* CANCELLARE ALTEZZA */
-    height: 400px;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -72,15 +70,41 @@ nav li {
     border-radius: 5px;
 }
 
+.bt-piccolo {
+    padding: 5 10px;
+}
+
+.bt-grande {
+    padding: 13px 20px;
+}
+
 .button-blue {
     background-color: #0c325a;
     padding: 5px 20px;
     border: 1px solid #b8e2f2;
+    margin: 0 10px;
 }
 
 .button-green {
     background-color: #7cbb02;
     padding: 5px 10px;
     border: 1px solid #7cbb02;
+}
 
+.banner {
+    height: 400px;
+    position: relative;
+}
+
+.contained {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px;
 }
