@@ -81,6 +81,11 @@ nav li {
 .banner {
     height: 400px;
     position: relative;
+    background-image: url(https://cdn.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png);
+    background-size: 800px 300px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
 }
 
 .contained {
