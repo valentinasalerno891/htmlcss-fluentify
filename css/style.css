@@ -30,10 +30,6 @@ body {
     line-height: 50px;
 }
 
-.bcg-bianco {
-    background-color: white;
-}
-
 #logo, nav {
     float: left;
 }
@@ -112,4 +108,39 @@ h2 {
 
 p {
     color: gray;
+}
+
+.bcg-bianco {
+    background-color: white;
+}
+
+.box {
+    width: 33.3333%;
+    float: left;
+    text-align: center;
+    padding: 0 5px;
+}
+
+.bcg-bianco img {
+    height: 140px;
+    margin-top: 50px;
+}
+
+.box h3 {
+    color: #7cbb02;
+    margin: 20px 0;
+}
+
+hr {
+    width: 70px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.middle-box hr {
+    margin-top: 53px;
+}
+
+.box p {
+
 }
